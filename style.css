@@ -1,0 +1,391 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  transition: all 1s ease; /* Apply a 1-second transition to all properties */
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url('images/headerbg.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+/* Navbar */
+nav {
+  position: sticky; /* Set the navbar to a fixed position */
+  top: 0; /* Stick it to the top of the viewport */
+  left: 0; /* Align it to the left side */
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  z-index: 1000; /* Add a higher z-index to ensure it's above other content */
+}
+
+
+header .Talk-to-us,
+.login {
+  color: #101010;
+  text-align: center;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.img-fill {
+  width: 200px;
+  height: 60px;
+}
+
+.img-fill img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin-top: 20px;
+}
+
+
+
+.header-text {
+  padding-top: 30px;
+  padding-left: 20px;
+  background-color: #f8f8f8;
+}
+
+.img-girl {}
+
+.img-girl img {
+  margin-top: 20px;
+  width: 100%;
+  height: 122%;
+  object-fit: cover;
+}
+
+@media (max-width: 970px) {
+  header {
+    background-color: #f8f8f8;
+    background-image: none;
+  }
+
+  nav {
+    background-color: #f8f8f8;
+  }
+
+  .navbar-contain {
+    margin-top: 10px;
+  }
+
+  .login {
+    margin-top: 10px;
+  }
+
+  .button-cot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .img-fill {
+    margin: 0 auto;
+  }
+
+  .img-girl {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .img-girl {
+    display: none;
+  }
+
+  .img-fill {
+    display: none;
+  }
+}
+
+/* choosing section */
+.choosing-section {
+  background-image: url('images/layer.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.img-part {
+  background-image: url('images/Rectangle\ 28.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+.choosing-section .img-part .img-section {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.text-contain {
+  background: #fff;
+}
+
+.text-contain h1 {
+  color: #101010;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text-contain .text-choosing {
+  width: 80%;
+}
+
+h2 {
+  color: #ddf247;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 15px;
+  margin-right: 20px;
+}
+
+.text-contain h3 {
+  color: #101010;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Client Section */
+.client-section {
+  width: 100%;
+  padding: 10px;
+}
+
+.client-section .img-contain {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  background: none;
+  text-align: center;
+  margin: 10px;
+}
+
+.client-section .img-contain img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Future section */
+.future-section {
+  background: #f8f8f8;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.future-section .text-value {
+  padding-top: 20px;
+}
+
+.crausel {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.card-crausel {
+  flex: 0 0 250px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-crausel h1 {
+  color: #ddf247;
+}
+
+.card-crausel:hover {
+  background-color: #ddf247;
+}
+
+.card-crausel h1:hover {
+  width: 60px;
+  color: #101010;
+  padding: 2px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .card-crausel {
+    flex: 0 0 100%;
+    margin-right: 0;
+  }
+}
+
+/* feedack */
+.callback {
+  background: #ddf247;
+  padding: 30px;
+}
+
+/* choosing-collegeBoy */
+.choosing-collegeBoy {
+  overflow: hidden;
+}
+
+.choosing-collegeBoy .img-part {
+  background-image: url('images/mbg.png');
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.choosing-collegeBoy .img-part .img-section {
+  width: 100%;
+  height: 100%;
+}
+
+.choosing-collegeBoy .img-part .img-section img {
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+}
+
+.choosing-collegeBoy .text-contain {
+  padding: 20px;
+}
+
+.choosing-collegeBoy .text-contain h1 {
+  color: #101010;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.choosing-collegeBoy .text-contain h3 {
+  color: #101010;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.choosing-collegeBoy .text-contain .card-text {
+  margin-top: 20px;
+}
+
+.choosing-collegeBoy .text-contain .card-text h3 {
+  color: #101010;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.choosing-collegeBoy .text-contain .card-text p {
+  color: #101010;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 15px;
+}
+
+@media (max-width: 968px) {
+  .choosing-collegeBoy .img-part .img-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* testimonial section */
+.Testimonial-section {
+  height: auto;
+  padding-bottom: 20px;
+  background: #f8f8f8;
+}
+
+.Testimonial-section .crausel {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.Testimonial-section .card-crausel {
+  flex: 1 0 320px;
+  height: 290px;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.Testimonial-section .card-crausel h1 {
+  color: #ddf247;
+}
+
+.Testimonial-section .card-crausel p {
+  font-size: 12px;
+}
+
+.Testimonial-section .card-crausel .icons {
+  font-size: 13px;
+}
+
+/* Responsive CSS */
+@media (max-width: 768px) {
+  .card-crausel {
+    flex: 0 0 100%;
+    margin-right: 0;
+  }
+}
+
+.footer-end {
+  background: #101010;
+  padding: 10px;
+  color: #fff;
+}
+
+.footer-end h1 {
+  padding: 10px;
+}

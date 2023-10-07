@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid navbar-contain">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mt-lg-0 mt-1" id="navbarTogglerDemo01">
+                    <a class="btn btn-outline-dark login" href="#">LOGO</a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#whyus">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whyustralia">Why Australia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#client">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Testimonial</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn Talk-to-us" type="submit" style="background-color: #DDF247;">Talk to us</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Header Content -->
+        <div class="container-fluid header-content">
+            <div class="row">
+                <div class="col-lg-7 header-left col-12">
+                    <div class="header-text">
+                        <p style="color: #101010; font-size: 20px; font-style: normal; font-weight: 400; line-height: normal; margin: 10px;">Discover the land of endless possibilities</p>
+                        <h1 style="color: #101010; font-size: 50px; font-style: normal; font-weight: 600; line-height: normal; margin: 10px;">Discover Your<br />Dream Education<br />and Career in Australia!</h1>
+                        <p style="color: #101010; font-size: 20px; font-style: normal; font-weight: 400; line-height: normal; margin: 10px;">Our website offers a comprehensive guide to help you navigate<br />the process of studying and working in Australia.</p>
+                        <div class="button-cot" style="margin-left: 10px;margin-right: 20px;margin-top: 11px;margin-bottom: 10px;">
+                            <button style="width: 150px; height: 50px; border-radius: 10px; background: #101010; color: #F8F8F8; border: none; font-size: 20px; font-style: normal; font-weight: 500; line-height: normal; margin-right: 15px;">Register Now</button>
+                            <button style="width: 150px; height: 50px; border-radius: 10px; background: #F8F8F8; color: #101010; border: 2px solid #101010; font-size: 20px; font-style: normal; font-weight: 500; line-height: normal;">Schedule a Call</button>
+                        </div>
+                    </div>
+                    <div class="img-fill">
+                        <img src="images/arc.png"/>
+                    </div>
+                </div>
+                <div class="col-lg-5 img-girl">
+                    <img src="images/Girl Image.png">
+                </div>
+            </div>
+        </div>
+        <!-- Header Content End -->
+    </header>
+
+    <!-- Choosing Section -->
+    <section class="container-fluid choosing-section" id="whyustralia">
+        <div class="row gap-none">
+            <div class="col-md-6 img-part">
+                <div class="img-section"></div>
+            </div>
+            <div class="col-md-6 text-contain">
+                <h1>Why choose Australia?</h1>
+                <div class="row">
+                    <div class="col-12 d-flex text-choosing ">
+                        <h2 class="">1.</h2>
+                        <h3 class="ml-2 mt-2">Home to premier institutions &<br />a world-class higher education system</h3>
+                    </div>
+                    <div class="col-12 d-flex text-choosing ">
+                        <h2 class="">2.</h2>
+                        <h3 class="ml-2 mt-2">Universities focus on practical learning<br />& research opportunities</h3>
+                    </div>
+                    <div class="col-12 d-flex text-choosing ">
+                        <h2 class="">3.</h2>
+                        <h3 class="ml-2 mt-2">Known for its friendly & inclusive multi-cultural<br />environment</h3>
+                    </div>
+                    <div class="col-12 d-flex text-choosing ">
+                        <h2 class="">4.</h2>
+                        <h3 class="ml-2 mt-2">Provides part-time work opportunities while<br />studying to get practical experience</h3>
+                    </div>
+                    <div class="col-12 d-flex text-choosing ">
+                        <h2 class="">5.</h2>
+                        <h3 class="ml-2 mt-2">Popular for its high standard of living & unique<br />outdoor experiences</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Choosing Section End -->
+
+    <!-- Client Section -->
+    <section class="container-fluid client-section d-flex flex-lg-row flex-column justify-content-center align-items-center" id="client">
+        <div class="img-contain">
+            <img src="images/ACU.png" />
+        </div>
+        <div class="img-contain">
+            <img src="images/charles_sturt_uni_7ba95151d7 1.png" />
+        </div>
+        <div class="img-contain">
+            <img src="images/JCU-horizontal 1.png" />
+        </div>
+        <div class="img-contain">
+            <img src="images/pihms-logo-transparent 1.png" />
+        </div>
+        <div class="img-contain">
+            <img src="images/1200px-Deakin_University_Logo_2017 1.png" />
+        </div>
+    </section>
+    <!-- Client Section End -->
+
+    <!-- Future Section -->
+    <section class="container-fluid future-section" id="">
+        <div class="row">
+            <div class="col-md-4 coltext-value justify-content-end">
+                <h1 class="pt-3 pb-3">Your dream future in Australia is just 5 steps away.</h1>
+                <p>Here's how we make it simple for you</p>
+                <button style="padding-top: 10px; padding-bottom: 10px; padding-left:20px; padding-right:20px;border-radius: 10px;outline: none;border: none;background-color: #101010;color: white;font-weight: 500;">Register Now</button>
+            </div>
+            <div class="col-8 crausel">
+                <div class="card-crausel">
+                    <h1>1.</h1>
+                    <p>Get your profile assessed by our expert team of counselors</p>
+                </div>
+                <div class="card-crausel">
+                    <h1>2.</h1>
+                    <p>Another card with different content</p>
+                </div>
+                <div class="card-crausel">
+                    <h1>3.</h1>
+                    <p>Yet another card with different content</p>
+                </div>
+                <div class="card-crausel">
+                    <h1>4.</h1>
+                    <p>Get your profile assessed by our expert team of counselors</p>
+                </div>
+                <div class="card-crausel">
+                    <h1>5.</h1>
+                    <p>Get your profile assessed by our expert team of counselors</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Future Section End -->
+
+    <!-- Callback Section -->
+    <section class="container-fluid callback">
+        <div class="row">
+            <div class="col-md-9 d-sm-block d-none">
+                <h1 style="color: #101010; font-size: 50px; font-style: normal; font-weight: 600; line-height: normal;">
+                    Australian universities rank in the World's Top 50 in various study areas.
+                </h1>
+            </div>
+            <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <span style="color: #101010; width: 314px; height: 50px; border-radius: 10px; background: #FFF; font-size: 20px; font-style: normal; font-weight: 500; line-height: normal; display: flex; justify-content: center; align-items:center ; margin-left: 15px;">Speak to our counselor</span>
+            </div>
+        </div>
+    </section>
+    <!-- Callback Section End -->
+
+    <!-- Choosing College Boy Section -->
+    <section class="container-fluid choosing-collegeBoy" id="whyus">
+        <div class="row gap-none">
+            <div class="col-lg-6 img-part">
+                <div class="img-section">
+                    <img src="images/brandwire_image_32006459 1.png" alt="College-Boy" />
+                </div>
+            </div>
+            <div class="col-lg-6 text-contain">
+                <h1>Why choose us?</h1>
+                <h3 class="">We’ve helped more than 55k students begin their journey!</h3>
+                <span style="color: #101010; width: 314px; height: 50px; border-radius: 10px; background: #DDF247; font-size: 20px; font-style: normal; font-weight: 500; line-height: normal; display: flex; justify-content: center; align-items:center ; margin-left: 15px;">You could be the next</span>
+                <div class="row card-text">
+                    <div class="col-sm-6 col-12 ">
+                        <h3>750+</h3>
+                        <p>Universities to choose from</p>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <h3>97.9%</h3>
+                        <p>Visa Success rate</p>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <h3>Personalized</h3>
+                        <p>counseling sessions with certified education consultants</p>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <h3>Free services</h3>
+                        <p>from application to enrollment</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Choosing College Boy Section End -->
+
+    <!-- Testimonial Section -->
+    <section class="Testimonial-section"  id="testimonial">
+        <div class="container">
+            <h1 style="">Hear from our students. </h1>
+            <div class="crausel">
+                <div class="card-crausel">
+                    <h1><i class="fa-solid fa-quote-left"></i></h1>
+                    <p>AECC India helped me with my visa process, and it was
+                        seamless. My Counselor was so helpful. She answered
+                        all my queries patiently and guided me in all aspects.
+                        Now I am in the UK. Thank you so much for the great
+                        service and support
+                    </p>
+                    <h5>Aswathy Krishan</h5>
+                    <h6>Chennai</h6>
+                    <div class="icons">
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #F8F8F8"></i></span>
+                    </div>
+                </div>
+
+                <div class="card-crausel">
+                    <h1><i class="fa-solid fa-quote-left"></i></h1>
+                    <p>AECC India helped me with my visa process, and it was
+                        seamless. My Counselor was so helpful. She answered
+                        all my queries patiently and guided me in all aspects.
+                        Now I am in the UK. Thank you so much for the great
+                        service and support
+                    </p>
+                    <h5>Aswathy Krishan</h5>
+                    <h6>Chennai</h6>
+                    <div class="icons">
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #F8F8F8"></i></span>
+                    </div>
+                </div>
+
+                <div class="card-crausel">
+                    <h1><i class="fa-solid fa-quote-left"></i></h1>
+                    <p>AECC India helped me with my visa process, and it was
+                        seamless. My Counselor was so helpful. She answered
+                        all my queries patiently and guided me in all aspects.
+                        Now I am in the UK. Thank you so much for the great
+                        service and support
+                    </p>
+                    <h5>Aswathy Krishan</h5>
+                    <h6>Chennai</h6>
+                    <div class="icons">
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #F8F8F8"></i></span>
+                    </div>
+                </div>
+
+                <div class="card-crausel">
+                    <h1><i class="fa-solid fa-quote-left"></i></h1>
+                    <p>AECC India helped me with my visa process, and it was
+                        seamless. My Counselor was so helpful. She answered
+                        all my queries patiently and guided me in all aspects.
+                        Now I am in the UK. Thank you so much for the great
+                        service and support
+                    </p>
+                    <h5>Aswathy Krishan</h5>
+                    <h6>Chennai</h6>
+                    <div class="icons">
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #F8F8F8"></i></span>
+                    </div>
+                </div>
+                <div class="card-crausel">
+                    <h1><i class="fa-solid fa-quote-left"></i></h1>
+                    <p>AECC India helped me with my visa process, and it was
+                        seamless. My Counselor was so helpful. She answered
+                        all my queries patiently and guided me in all aspects.
+                        Now I am in the UK. Thank you so much for the great
+                        service and support
+                    </p>
+                    <h5>Aswathy Krishan</h5>
+                    <h6>Chennai</h6>
+                    <div class="icons">
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #DDF247;"></i></span>
+                        <span><i class="fa-solid fa-circle" style="color: #F8F8F8"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Footer -->
+    <footer class="footer-end">
+        <div class="container text-center">
+            <h1>Your logo here.</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <h5>Terms And Conditions</h5>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Copyright © 2023 AECC</h5>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Privacy Policy</h5>
+                </div>
+
+                <div class="col-md-3">
+                    <h5>Cookies</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
